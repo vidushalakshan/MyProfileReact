@@ -1,9 +1,10 @@
+import NavBar from "./components/navbar/NavBar";
 
 
 function App() {
   return (
     <div>
-        <h1>Hello react..</h1>
+        <NavBar/>
     </div>
   );
 }
