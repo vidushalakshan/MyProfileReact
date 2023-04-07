@@ -1,0 +1,65 @@
+.hometext {
+    color: #efaf00;
+    position: relative;
+    top: 11%;
+}
+
+.text1 {
+    margin-top: 10%;
+    font-size: 37px;
+    margin-left: 3%;
+    font-family: 'Crete Round', serif;
+}
+
+.text2 {
+    margin-top: 2%;
+    font-size: 68px;
+    margin-left: 3%;
+    font-weight: 600;
+    font-family: 'Crete Round', serif;
+}
+
+.text3 {
+    margin-top: 2%;
+    font-size: 37px;
+    margin-left: 3%;
+    font-family: 'Crete Round', serif;
+}
+
+.text4 {
+    margin-top: 2%;
+    font-size: 53px;
+    font-weight: 600;
+    margin-left: 3%;
+    font-weight: bold;
+    color: #2b12ff;
+    font-family: 'Crete Round', serif;
+    text-transform: uppercase;
+    height: 100%;
+    width: 0;
+    border-right: 2px solid red;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%, 10%, 80% {
+        width: 0;
+    }
+    60%, 70% {
+        width: 80%;
+    }
+}
+
+.background {
+    background: url("../assets/home/homes.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.image {
+    background: url("../assets/home/@vidusha.png");
+    background-size: cover;
+    height: 100%;
+    
+}

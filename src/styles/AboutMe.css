@@ -1,0 +1,84 @@
+.aboutmemain {
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#aboutme {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    color: crimson;
+    font-family: 'Crete Round', serif;
+}
+
+.imageAbout {
+    background: url(../assets/abouMe/@vidusha2.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+}
+
+.detail {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline;
+    color: white;
+    position: relative;
+    top: 7%;
+}
+
+.aboutedu {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 58px;
+    font-weight: bold;
+    color: white;
+    margin-left: -215px;
+}
+
+.about1 {
+    color: orange;
+}
+
+.about2 {
+    color: orange;
+}
+
+.about3 {
+    color: orange;
+}
+
+.about4 {
+    color: orange;
+}
+
+.about5 {
+    color: orange;
+}
+
+.about6 {
+    color: orange;
+}
+
+.detais {
+    position: relative;
+    top: 8%;
+}
+.detais1 {
+    position: relative;
+    top: 16%;
+}
+.detais2 {
+    position: relative;
+    top: 24%;
+}
+.detais3 {
+    position: relative;
+    top: 32%;
+}
+.detais4 {
+    position: relative;
+    top: 40%;
+}

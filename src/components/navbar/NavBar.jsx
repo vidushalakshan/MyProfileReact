@@ -1,9 +1,6 @@
 import React from "react";
 import "../../styles/NavBar.css";
 
-
-
-
 const NavBar = () => {
   // const navigateTo= () => history.push("loging");
 
