@@ -1,0 +1,89 @@
+.skil {
+  color: crimson;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 65px;
+  font-family: "Crete Round", serif;
+}
+
+.skilTitle {
+  position: relative;
+  text-align: center;
+}
+
+.skilTitle {
+  height: 387px;
+  position: relative;
+}
+
+.skilTitle > div {
+  position: absolute;
+  height: 100%;
+  width: calc(100% / 4);
+  transition: ease-out 0.3s;
+}
+
+.skilTitle > div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.java {
+  background: url("../assets/skils/333.png");
+  height: 400px;
+  width: 400px;
+    background-size: cover;
+}
+
+.mysql {
+  background: url("../assets/skils/444.png");
+  height: 400px;
+  width: 400px;
+    background-size: cover;
+}
+
+.html {
+  background: url("../assets/skils/555.png");
+  height: 400px;
+  width: 400px;
+    background-size: cover;
+}
+
+.css {
+  background: url("../assets/skils/666.png");
+  height: 400px;
+  width: 400px;
+    background-size: cover;
+}
+
+.divOne{
+  left: 0;
+  background-size: cover;
+  padding-left: 19px;
+  border-radius: 40px;
+}
+
+.divTwo {
+  left: calc(100% / 4);
+  background-size: cover;
+  padding-left: 19px;
+  border-radius: 40px;
+}
+
+.skills > div:nth-child(3) {
+  left: calc((100% / 4) * 2);
+  padding-left: 19px;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.skills > div:nth-child(4) {
+  left: calc((100% / 4) * 3);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.skiltxt {
+  color: white;
+  padding-left: 136px;
+}

@@ -55,7 +55,7 @@ const AboutMe = () => {
           </Grid>
         </Grid>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={8}>
+          <Grid item xs={12}>
             <item>
               <article>
                 <pre class="aboutedu">
@@ -64,6 +64,9 @@ const AboutMe = () => {
                   semester.
                 </pre>
               </article>
+              <div>
+                <button class="btn2">Download CV</button>
+              </div>
             </item>
           </Grid>
         </Grid>

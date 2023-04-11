@@ -1,94 +1,111 @@
 .aboutmemain {
-    position: relative;
-    text-align: center;
-    margin-top: 3%;
+  position: relative;
+  text-align: center;
+  margin-top: 3%;
 }
 
 #aboutme {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 55px;
-    color: crimson;
-    font-family: 'Crete Round', serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 55px;
+  color: crimson;
+  font-family: "Crete Round", serif;
 }
 
 .imageAbout {
-    background: url(../assets/abouMe/@vidusha2.jpg);
-    background-size: cover;
-    margin-top: 5%;
-    width: 500px;
-    height: 500px;
-    border-radius: 8%;
+  background: url(../assets/abouMe/@vidusha2.jpg);
+  background-size: cover;
+  margin-top: 5%;
+  width: 500px;
+  height: 500px;
+  border-radius: 8%;
 }
 
 .detail {
-    font-size: 32px;
-    font-weight: bold;
-    display: inline;
-    color: white;
-    position: relative;
-    top: 7%;
+  font-size: 32px;
+  font-weight: bold;
+  display: inline;
+  color: white;
+  position: relative;
+  top: 7%;
 }
 
 .aboutedu {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 58px;
-    font-weight: bold;
-    color: white;
-    margin-left: -215px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 58px;
+  font-weight: bold;
+  color: white;
+  margin-left: -215px;
 }
 
 .about1 {
-    color: orange;
+  color: orange;
 }
 
 .about2 {
-    color: orange;
+  color: orange;
 }
 
 .about3 {
-    color: orange;
+  color: orange;
 }
 
 .about4 {
-    color: orange;
+  color: orange;
 }
 
 .about5 {
-    color: orange;
+  color: orange;
 }
 
 .about6 {
-    color: orange;
+  color: orange;
 }
 
 .detais {
-    position: relative;
-    top: 8%;
+  position: relative;
+  top: 8%;
 }
+
 .detais1 {
-    position: relative;
-    top: 16%;
+  position: relative;
+  top: 16%;
 }
+
 .detais2 {
-    position: relative;
-    top: 24%;
+  position: relative;
+  top: 24%;
 }
+
 .detais3 {
-    position: relative;
-    top: 32%;
+  position: relative;
+  top: 32%;
 }
+
 .detais4 {
-    position: relative;
-    top: 40%;
+  position: relative;
+  top: 40%;
 }
 
 .aboutedu {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 58px;
-    font-weight: bold;
-    color: white;
-    margin-left: -215px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 58px;
+  font-weight: bold;
+  color: white;
+  margin-left: -215px;
+}
+
+.btn2 {
+  position: relative;
+  left: 85%;
+  height: 65px;
+  width: 207px;
+  font-size: 25px;
+  color: white;
+  background-color: blue;
+  font-family: "Crete Round", serif;
+  transition: ease-out 0.3s;
+  border-radius: 23px;
 }

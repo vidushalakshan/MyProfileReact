@@ -3,6 +3,7 @@ import NavBar from "../components/navbar/NavBar";
 import Home from "./Home";
 import "../styles/Main.css"
 import AboutMe from "./AboutMe";
+import Skils from "./Skils";
 
 const Main = () => {
     return (
@@ -15,6 +16,9 @@ const Main = () => {
             </div>
             <div >
                 <AboutMe/>
+            </div>
+            <div >
+                <Skils/>
             </div>
         </div>
     )
