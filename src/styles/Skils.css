@@ -1,8 +1,10 @@
 .skil {
+  position: relative;
   color: crimson;
   font-weight: 600;
   font-style: normal;
   font-size: 65px;
+  top: 20%;
   font-family: "Crete Round", serif;
 }
 
@@ -93,4 +95,9 @@
   font-weight: bold;
   text-align: center;
   color: darkorange;
+}
+
+.swiper {
+  position: relative;
+  bottom: 129px;
 }
