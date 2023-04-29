@@ -31,7 +31,7 @@ const AboutMe = () => {
                   </div>
 
                   <div className="detais">
-                    Age - <b class="about2">20</b>
+                    Age - <b class="about2">22</b>
                   </div>
 
                   <div className="detais1">
@@ -58,11 +58,11 @@ const AboutMe = () => {
           <Grid item xs={12}>
             <item>
               <article>
-                <pre class="aboutedu">
+                <p class="aboutedu">
                   I'm a Software Engineering student in institute of java
-                  Software Engineering (ijse) and currently completing second
+                  Software Engineering (ijse) and currently completing second    
                   semester.
-                </pre>
+                </p>
               </article>
               <div>
                 <button class="btn2">Download CV</button>

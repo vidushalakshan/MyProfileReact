@@ -17,7 +17,7 @@ const Main = () => {
             <div >
                 <AboutMe/>
             </div>
-            <div >
+            <div>
                 <Skils/>
             </div>
         </div>

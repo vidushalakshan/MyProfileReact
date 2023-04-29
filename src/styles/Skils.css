@@ -28,35 +28,7 @@
   transform: scale(1.05);
 }
 
-.java {
-  background: url("../assets/skils/333.png");
-  height: 400px;
-  width: 400px;
-    background-size: cover;
-}
-
-.mysql {
-  background: url("../assets/skils/444.png");
-  height: 400px;
-  width: 400px;
-    background-size: cover;
-}
-
-.html {
-  background: url("../assets/skils/555.png");
-  height: 400px;
-  width: 400px;
-    background-size: cover;
-}
-
-.css {
-  background: url("../assets/skils/666.png");
-  height: 400px;
-  width: 400px;
-    background-size: cover;
-}
-
-.divOne{
+.divOne {
   left: 0;
   background-size: cover;
   padding-left: 19px;
@@ -86,4 +58,39 @@
 .skiltxt {
   color: white;
   padding-left: 136px;
+}
+
+.one {
+  background: url(../assets/skils/333.png);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+}
+
+.two {
+  background: url(../assets/skils//444.png);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+}
+
+.three {
+  background: url(../assets/skils/555.png);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+}
+
+.four {
+  background: url(../assets/skils/666.png);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+}
+
+.java {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: darkorange;
 }
