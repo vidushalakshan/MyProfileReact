@@ -67,6 +67,7 @@
   background-size: cover;
   height: 500px;
   width: 100px;
+  transition: ease-out 0.3s;
 }
 
 .two {
@@ -74,6 +75,7 @@
   background-size: cover;
   height: 500px;
   width: 100px;
+  transition: ease-out 0.3s;
 }
 
 .three {
@@ -81,6 +83,7 @@
   background-size: cover;
   height: 500px;
   width: 100px;
+  transition: ease-out 0.3s;
 }
 
 .four {
@@ -88,6 +91,27 @@
   background-size: cover;
   height: 500px;
   width: 100px;
+  transition: ease-out 0.3s;
+}
+
+.one:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.two:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.three:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.four:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .java {
