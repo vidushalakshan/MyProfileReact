@@ -4,6 +4,7 @@ import Home from "./Home";
 import "../styles/Main.css"
 import AboutMe from "./AboutMe";
 import Skils from "./Skils";
+import Project from "./Project";
 
 const Main = () => {
     return (
@@ -19,6 +20,9 @@ const Main = () => {
             </div>
             <div>
                 <Skils/>
+            </div>
+            <div>
+                <Project/>
             </div>
         </div>
     )
