@@ -12,3 +12,32 @@
   position: relative;
   text-align: center;
 }
+
+.hotel {
+    background: url(../assets/Project/hotel.jpg);
+    background-size: cover;
+    height: 515px;
+    width: 75px;
+    border-radius: 12%;
+}
+
+.shop {
+    background: url(../assets/Project/shop.jpg);
+    background-size: cover;
+    height: 515px;
+    width: 75px;
+    border-radius: 12%;
+}
+
+.market {
+    background: url(../assets/Project/bookshop.jpg);
+    background-size: cover;
+    height: 515px;
+    width: 75px;
+    border-radius: 12%;
+}
+
+.swiperProject {
+    position: relative;
+    top: 129px;
+}
