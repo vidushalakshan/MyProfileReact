@@ -19,6 +19,7 @@
     height: 515px;
     width: 75px;
     border-radius: 12%;
+    overflow: hidden;
 }
 
 .shop {
@@ -27,6 +28,7 @@
     height: 515px;
     width: 75px;
     border-radius: 12%;
+    overflow: hidden;
 }
 
 .market {
@@ -35,9 +37,33 @@
     height: 515px;
     width: 75px;
     border-radius: 12%;
+    overflow: hidden;
 }
 
 .swiperProject {
     position: relative;
     top: 129px;
 }
+
+.section {
+    transition: ease-out 0.3s;
+}
+
+.hotel:hover {
+    cursor: pointer;
+    /*background-color: #ba0b2e;*/
+    transform: scale(1.05);
+}
+
+.shop:hover {
+    cursor: pointer;
+    /*background-color: #ba0b2e;*/
+    transform: scale(1.05);
+}
+
+.market:hover {
+    cursor: pointer;
+    /*background-color: #ba0b2e;*/
+    transform: scale(1.05);
+}
+
