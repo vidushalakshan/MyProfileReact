@@ -18,13 +18,13 @@ const Project = () => {
           className="swiperProject"
         >
           <SwiperSlide className="hotel">
-            <div className="java"></div>
+            <div className="hotelN"><h2>Blue Ocean Hotel</h2></div>
           </SwiperSlide>
           <SwiperSlide className="shop">
-            <div className="java"></div>
+            <div className="hotelN"><h2>Super Market</h2></div>
           </SwiperSlide>
           <SwiperSlide className="market">
-            <div className="java"></div>
+            <div className="hotelN"><h2>Book Shop</h2></div>
           </SwiperSlide>
         </Swiper>
       </section>
