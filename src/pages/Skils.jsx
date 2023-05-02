@@ -37,7 +37,7 @@ const Skils = () => {
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="swiper"
+      className="swipers"
     >
       <SwiperSlide className="one"><div className="java">Java</div></SwiperSlide>
       <SwiperSlide className="two"><div className="java">MySql</div></SwiperSlide>

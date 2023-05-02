@@ -18,18 +18,6 @@
   position: relative;
 }
 
-.skilTitle > div {
-  position: absolute;
-  height: 100%;
-  width: calc(100% / 4);
-  transition: ease-out 0.3s;
-}
-
-.skilTitle > div:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
 .divOne {
   left: 0;
   background-size: cover;
@@ -68,6 +56,7 @@
   height: 500px;
   width: 100px;
   transition: ease-out 0.3s;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
 }
 
 .two {
@@ -76,6 +65,7 @@
   height: 500px;
   width: 100px;
   transition: ease-out 0.3s;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
 }
 
 .three {
@@ -84,6 +74,7 @@
   height: 500px;
   width: 100px;
   transition: ease-out 0.3s;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
 }
 
 .four {
@@ -92,6 +83,7 @@
   height: 500px;
   width: 100px;
   transition: ease-out 0.3s;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
 }
 
 .one:hover {
@@ -119,9 +111,11 @@
   font-weight: bold;
   text-align: center;
   color: darkorange;
+  position: relative;
+  top: 90%;
 }
 
-.swiper {
+.swipers {
   position: relative;
-  bottom: 129px;
+  top: -156px;
 }

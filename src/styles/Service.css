@@ -1,0 +1,152 @@
+.serviceTitle {
+  position: relative;
+  text-align: center;
+}
+
+.service {
+  position: relative;
+  color: crimson;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 65px;
+  top: 91px;
+  font-family: "Crete Round", serif;
+}
+
+.ones {
+  background: url(../assets/Service/mobiledesiner.png);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.twos {
+  background: url(../assets/Service/mobiledevelopment.jpeg);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.threes {
+  background: url(../assets/Service/ui.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.fours {
+  background: url(../assets/Service/web.jpeg);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.fives {
+  background: url(../assets/Service/webdevelopment.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.sixs {
+  background: url(../assets/Service/standalone.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 100px;
+  transition: ease-out 0.3s;
+  border-radius: 12%;
+}
+
+.serviceOne {
+  position: relative;
+  bottom: -152px;
+}
+
+.serviceTwo {
+  position: relative;
+  top: 344px;
+}
+
+.ones:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.twos:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.threes:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.fours:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.fives:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.sixs:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.javas {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: darkorange;
+  text-align: center;
+  font-family: "Crete Round", serif;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: rgb(7, 14, 218) 8px 6px 12px;
+}
+
+.javas:hover {
+  background: #343434;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.serName {
+  width: 100%;
+    font-weight: bold;
+    color: #3104c4;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+
+.javas:hover .serName {
+  bottom: 49%;
+  opacity:3;
+  color: rgb(255, 68, 0);
+}

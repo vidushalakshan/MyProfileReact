@@ -4,7 +4,7 @@
   font-weight: 600;
   font-style: normal;
   font-size: 65px;
-  top: 20%;
+  top: -77px;
   font-family: "Crete Round", serif;
 }
 
@@ -16,7 +16,7 @@
 .hotel {
   background: url(../assets/Project/hotel.jpg);
   background-size: cover;
-  height: 515px;
+  height: 500px;
   width: 75px;
   border-radius: 12%;
   overflow: hidden;
@@ -25,7 +25,7 @@
 .shop {
   background: url(../assets/Project/shop.jpg);
   background-size: cover;
-  height: 515px;
+  height: 500px;
   width: 75px;
   border-radius: 12%;
   overflow: hidden;
@@ -34,15 +34,15 @@
 .market {
   background: url(../assets/Project/bookshop.jpg);
   background-size: cover;
-  height: 515px;
+  height: 500px;
   width: 75px;
   border-radius: 12%;
   overflow: hidden;
 }
 
 .swiperProject {
-  position: relative;
-  top: 129px;
+    position: relative;
+    top: -6px;
 }
 
 .section {
@@ -88,3 +88,35 @@
   opacity: 0.8;
   cursor: pointer;
 }
+
+.trans {
+    width: 100%;
+    font-weight: bold;
+    color: #fdfdfd;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0.05;
+    transition: 0.5s;
+}
+
+.hotelN:hover h2 {
+    bottom: 49%;
+    opacity:3;
+}
+
+.btnMore {
+    position: relative;
+    height: 65px;
+    width: 207px;
+    left: 43%;
+    top: 36px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    font-family: "Crete Round", serif;
+    transition: ease-out 0.3s;
+    border-radius: 23px;
+  }

@@ -19,6 +19,7 @@
   width: 500px;
   height: 500px;
   border-radius: 8%;
+  box-shadow: rgb(251, 31, 31) 8px 6px 12px;
 }
 
 .detail {

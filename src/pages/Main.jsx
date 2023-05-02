@@ -5,6 +5,7 @@ import "../styles/Main.css"
 import AboutMe from "./AboutMe";
 import Skils from "./Skils";
 import Project from "./Project";
+import Service from "./Service";
 
 const Main = () => {
     return (
@@ -23,6 +24,9 @@ const Main = () => {
             </div>
             <div>
                 <Project/>
+            </div>
+            <div>
+                <Service/>
             </div>
         </div>
     )
