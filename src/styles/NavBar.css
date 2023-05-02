@@ -90,3 +90,74 @@
     color: #f9a826;
   }
   
+
+.bar {
+  position: initial;
+  top: 0;
+  height: 100px;
+  background-color: crimson;
+  padding: 2px 0;
+  transition: all 0.3s ease;
+}
+
+.navSection {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin-top: -17px;
+}
+
+.navSection > section > h1 {
+  font-size: 55px;
+  display: inline;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 22px;
+  letter-spacing: 7px;
+}
+
+.navSection > section > nav > ul {
+  position: absolute;
+  right: 25px;
+  bottom: -21px;
+  top: 0;
+  margin: auto;
+  height: 40px;
+  font-size: 20px;
+  list-style: none;
+  text-decoration-line: none;
+  font-family: "Crete Round", serif;
+}
+
+.navSection > section > nav > ul > li {
+  display: inline;
+  text-decoration-line: none;
+  padding: 0 10px 0 10px;
+}
+
+.navSection > section > nav > ul > li > a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.navSection > section > nav > ul > li.active a {
+  color: #0089f2;
+  box-shadow: inset 0 0 5px #0187f5, inset 0 0 10px #85c3fa,
+    inset 0 0 15px #b6dbfc;
+}
+
+.logo {
+  transition: color 0.4s ease;
+  transform: rotate(90deg);
+  letter-spacing: -3.5px;
+}
+
+.logo2 {
+  color: #131313;
+  transition: color 0.4s ease;
+  animation-name: box;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

@@ -9,7 +9,7 @@ const Project = () => {
       <h1 className="projectTitle">
         <dfn className="project">My Projects</dfn>
       </h1>
-      <section className="section">
+      <section className="sections">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -33,9 +33,6 @@ const Project = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div>
-        <button class="btn2">More</button>
-      </div> */}
       </section>
       <div>
         <button class="btnMore">More</button>
