@@ -135,18 +135,18 @@
 
 .serName {
   width: 100%;
-    font-weight: bold;
-    color: #3104c4;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    transition: 0.5s;
+  font-weight: bold;
+  color: #3104c4;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  transition: 0.5s;
 }
 
 .javas:hover .serName {
   bottom: 49%;
-  opacity:3;
+  opacity: 3;
   color: rgb(255, 68, 0);
 }

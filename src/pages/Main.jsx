@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Skils from "./Skils";
 import Project from "./Project";
 import Service from "./Service";
+import Contact from "./Contact";
 
 const Main = () => {
     return (
@@ -27,6 +28,9 @@ const Main = () => {
             </div>
             <div>
                 <Service/>
+            </div>
+            <div>
+                <Contact/>
             </div>
         </div>
     )

@@ -1,0 +1,50 @@
+.contactTitle {
+    position: relative;
+    top: 393px;
+}
+
+.contact {
+  position: relative;
+  color: crimson;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 65px;
+  font-family: "Crete Round", serif;
+}
+
+.contacttxt {
+    position: relative;
+    right: -38%;
+    margin-top: 33px;
+    display: inline;
+}
+
+.txtname {
+    overflow: visible;
+    width: 457px;
+    height: 25px;
+    display: inline;
+}
+
+.txtEmail {
+    overflow: visible;
+    width: 461px;
+    height: 25px;
+    display: inline;
+    position: relative;
+    left: 0.5%;
+}
+
+.txtsubject {
+    width: 926px;
+    height: 25px;
+    display: inline;
+}
+
+.txtmassage {
+    margin: 0px;
+    width: 927px;
+    height: 219px;
+    display: inline;
+}
