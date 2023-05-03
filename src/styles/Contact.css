@@ -1,6 +1,6 @@
 .contactTitle {
-    position: relative;
-    top: 393px;
+  position: relative;
+  top: 393px;
 }
 
 .contact {
@@ -14,37 +14,41 @@
 }
 
 .contacttxt {
-    position: relative;
-    right: -38%;
-    margin-top: 33px;
-    display: inline;
+  position: relative;
+  right: -38%;
+  margin-top: 33px;
+  display: inline;
 }
 
 .txtname {
-    overflow: visible;
-    width: 457px;
-    height: 25px;
-    display: inline;
+  overflow: visible;
+  width: 457px;
+  height: 25px;
+  display: inline;
 }
 
 .txtEmail {
-    overflow: visible;
-    width: 461px;
-    height: 25px;
-    display: inline;
-    position: relative;
-    left: 0.5%;
+  overflow: visible;
+  width: 461px;
+  height: 25px;
+  display: inline;
+  position: relative;
+  left: 0.5%;
 }
 
 .txtsubject {
-    width: 926px;
-    height: 25px;
-    display: inline;
+  position: relative;
+  top: 26px;
+  width: 926px;
+  height: 25px;
+  display: inline;
 }
 
 .txtmassage {
-    margin: 0px;
-    width: 927px;
-    height: 219px;
-    display: inline;
+  position: relative;
+  top: 52px;
+  margin: 0px;
+  width: 927px;
+  height: 219px;
+  display: inline;
 }
