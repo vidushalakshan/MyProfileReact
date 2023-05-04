@@ -1,6 +1,6 @@
 .contactTitle {
   position: relative;
-  top: 390px;
+  top: 395px;
 }
 
 .textContacts {
@@ -59,9 +59,10 @@
 }
 
 .linksHandle {
-    position: relative;
-    left: 12%;
-    display: inline;
+  position: relative;
+  left: 9%;
+  top: 48px;
+  display: inline;
 }
 
 .socialLinks {
@@ -74,14 +75,25 @@
 }
 
 .linkName {
-    display: inline;
+  display: inline;
+  margin-left: 120px;
+  /* margin-top: -9px; */
+  position: relative;
+  font-size: 30px;
+  top: 16px;
+  color: #ea78ff;
+  transform: scale(1.05);
 }
 
 .linkdin {
-  /* background: url(../assets/Contact/link1.png);
-    background-size: cover;
-    height: 500px !important;
-    width: 100px !important; */
+  position: absolute;
+  background: url(../assets/Contact/link1.png);
+  background-size: cover;
+  height: 61px !important;
+  width: 68px !important;
+  top: 88%;
+  right: -35%;
+  display: inline;
 }
 
 .facebook {
