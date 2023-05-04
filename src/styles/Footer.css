@@ -1,0 +1,13 @@
+
+.footerTitle {
+    
+}
+
+.footerContent {
+    position: relative;
+    top: 547px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40%;
+}

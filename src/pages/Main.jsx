@@ -7,6 +7,7 @@ import Skils from "./Skils";
 import Project from "./Project";
 import Service from "./Service";
 import Contact from "./Contact";
+import Footer from "../components/footer/Footer";
 
 const Main = () => {
     return (
@@ -31,6 +32,9 @@ const Main = () => {
             </div>
             <div>
                 <Contact/>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     )
