@@ -20,12 +20,13 @@
 
 .contacttxt {
   position: relative;
-  right: -38%;
   margin-top: 33px;
   display: inline;
 }
 
 .txtname {
+  position: relative;
+  right: 280px;
   overflow: visible;
   width: 457px;
   height: 25px;
@@ -34,11 +35,11 @@
 
 .txtEmail {
   overflow: visible;
-  width: 461px;
+  width: 452px;
   height: 25px;
   display: inline;
   position: relative;
-  left: 0.5%;
+  left: -17.5%;
 }
 
 .txtsubject {
@@ -60,7 +61,7 @@
 
 .linksHandle {
   position: relative;
-  left: 9%;
+  left: 74%;
   top: 48px;
   display: inline;
 }
@@ -87,17 +88,33 @@
 
 .linkdin {
   position: absolute;
-  background: url(../assets/Contact/link1.png);
+  background: url(../assets/Contact/link3.png);
   background-size: cover;
   height: 61px !important;
-  width: 68px !important;
-  top: 88%;
-  right: -35%;
+  width: 53px !important;
+  top: 303%;
+  right: 34%;
   display: inline;
 }
 
 .facebook {
+  position: absolute;
+  background: url(../assets/Contact/link1.png);
+  background-size: cover;
+  height: 56px !important;
+  width: 66px !important;
+  top: 677%;
+  right: 32%;
+  display: inline;
 }
 
 .twiter {
+  position: absolute;
+  background: url(../assets/Contact/link2.png);
+  background-size: cover;
+  height: 61px !important;
+  width: 68px !important;
+  top: 1037%;
+  right: 32%;
+  display: inline;
 }
