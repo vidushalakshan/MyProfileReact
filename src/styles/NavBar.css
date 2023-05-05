@@ -162,3 +162,9 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+.navSection > section > nav > ul > li > a:hover {
+  background: linear-gradient(45deg,rgb(171, 4, 129),#3cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

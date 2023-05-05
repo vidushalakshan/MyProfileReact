@@ -12,9 +12,15 @@ const Contact = () => {
         <section className="linksHandle">
           <div className="socialLinks"></div>
           <b className="linkName">Socila Links</b>
-          <div className="linkdin"></div>
-          <div className="facebook"></div>
-          <div className="twiter"></div>
+          <a href="https://www.linkedin.com/in/vidusha-lakshan-37351a225/">
+            <div className="linkdin"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/vidusha-lakshan-37351a225/">
+            <div className="facebook"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/vidusha-lakshan-37351a225/">
+            <div className="twiter"></div>
+          </a>
         </section>
 
         <form className="contacttxt">
