@@ -18,9 +18,11 @@ const Project = () => {
           className="swiperProject"
         >
           <SwiperSlide className="hotel">
+          <a href="https://github.com/vidushalakshan/SuperMarket-LayeredArchitecture-">
             <div className="hotelN">
               <h2 className="trans">Blue Ocean Hotel</h2>
             </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide className="shop">
             <div className="hotelN">

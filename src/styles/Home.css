@@ -1,65 +1,143 @@
 .hometext {
-    color: #efaf00;
-    position: relative;
-    top: 11%;
+  color: #efaf00;
+  position: relative;
+  top: 11%;
 }
 
 .text1 {
-    margin-top: 10%;
-    font-size: 37px;
-    margin-left: 3%;
-    font-family: 'Crete Round', serif;
+  margin-top: 10%;
+  font-size: 37px;
+  margin-left: 3%;
+  font-family: "Crete Round", serif;
 }
 
 .text2 {
-    margin-top: 2%;
-    font-size: 68px;
-    margin-left: 3%;
-    font-weight: 600;
-    font-family: 'Crete Round', serif;
+  margin-top: 2%;
+  font-size: 68px;
+  margin-left: 3%;
+  font-weight: 600;
+  font-family: "Crete Round", serif;
 }
 
 .text3 {
-    margin-top: 2%;
-    font-size: 37px;
-    margin-left: 3%;
-    font-family: 'Crete Round', serif;
+  margin-top: 2%;
+  font-size: 37px;
+  margin-left: 3%;
+  font-family: "Crete Round", serif;
 }
 
 .text4 {
-    margin-top: 2%;
-    font-size: 53px;
-    font-weight: 600;
-    margin-left: 3%;
-    font-weight: bold;
-    color: #2b12ff;
-    font-family: 'Crete Round', serif;
-    text-transform: uppercase;
-    height: 100%;
-    width: 0;
-    border-right: 2px solid red;
-    overflow: hidden;
-    animation: animate 6s linear infinite;
+  margin-top: 2%;
+  font-size: 53px;
+  font-weight: 600;
+  margin-left: 3%;
+  font-weight: bold;
+  color: #2b12ff;
+  font-family: "Crete Round", serif;
+  text-transform: uppercase;
+  height: 100%;
+  width: 0;
+  border-right: 2px solid red;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
 }
 
 @keyframes animate {
-    0%, 10%, 80% {
-        width: 0;
-    }
-    60%, 70% {
-        width: 80%;
-    }
+  0%,
+  10%,
+  80% {
+    width: 0;
+  }
+  60%,
+  70% {
+    width: 80%;
+  }
 }
 
 .background {
-    background: url("../assets/home/homes.jpg");
-    background-size: cover;
-    height: 100vh;
+  background: url("../assets/home/homes.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
 .image {
-    background: url("../assets/home/@vidusha.png");
-    background-size: cover;
-    height: 100%;
-    
+  background: url("../assets/home/@vidusha.png");
+  background-size: cover;
+  height: 100%;
+}
+
+.hFacebook {
+  position: absolute;
+  background: url(../assets/Contact/link1.png);
+  background-size: cover;
+  height: 56px !important;
+  width: 66px !important;
+  display: inline;
+}
+
+.hTwiter {
+  position: absolute;
+  background: url(../assets/Contact/link2.png);
+  background-size: cover;
+  height: 61px !important;
+  width: 68px !important;
+  display: inline;
+  left: 10%;
+}
+
+.hGithub {
+  position: absolute;
+  background: url(../assets/home/link4.png);
+  background-size: cover;
+  height: 45px !important;
+  width: 64px !important;
+  display: inline;
+  left: 20%;
+  top: 7px;
+}
+
+.hLinkdin {
+  position: absolute;
+  background: url(../assets/Contact/link3.png);
+  background-size: cover;
+  height: 61px !important;
+  width: 53px !important;
+  display: inline;
+  left: 30%;
+}
+
+.linkHome {
+  position: relative;
+  position: relative;
+  top: 21%;
+  left: 2%;
+  color: white;
+}
+
+.linkHome > a {
+    width: 2000px;
+    height: 200px;
+    background-color: wite;
+}
+
+.btnHome {
+  position: relative;
+  left: 3%;
+  top: 102px;
+  height: 65px;
+  width: 207px;
+  font-size: 25px;
+  color: white;
+  background-color: blue;
+  font-family: "Crete Round", serif;
+  transition: ease-out 0.3s;
+  border-radius: 23px;
+}
+
+.btnHome:hover {
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: 3px solid deepskyblue;
 }

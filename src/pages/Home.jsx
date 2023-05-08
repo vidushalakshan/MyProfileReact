@@ -3,8 +3,6 @@ import "../styles/Home.css";
 import { Box } from "@mui/system";
 import Grid from "@mui/material/Grid";
 
-
-
 const Home = () => {
   return (
     // <div className="background">
@@ -19,7 +17,12 @@ const Home = () => {
 
     // </div>
     <Box sx={{ width: "100%" }}>
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}  className="background">
+      <Grid
+        container
+        rowSpacing={1}
+        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        className="background"
+      >
         <Grid item xs={7}>
           <item>
             <pre class="hometext">
@@ -28,12 +31,28 @@ const Home = () => {
               <div class="text3">And I'm a</div>
               <div class="text4">Software Developer</div>
             </pre>
+            <div>
+              <button class="btnHome">Hire Me</button>
+            </div>
+            <section className="linkHome">
+              <a href="https://www.facebook.com/vidusha.lakshan.100">
+                <div className="hFacebook"></div>
+              </a>
+              <a href="https://twitter.com/Vidusha38054491">
+                <div className="hTwiter"></div>
+              </a>
+              <a href="https://github.com/vidushalakshan">
+                <div className="hGithub"></div>
+              </a>
+              <a href="https://www.linkedin.com/in/vidusha-lakshan-37351a225/">
+                <div className="hLinkdin"></div>
+              </a>
+            </section>
           </item>
         </Grid>
         <Grid item xs={5}>
           <item>
-            <div className="image">
-            </div>
+            <div className="image"></div>
           </item>
         </Grid>
       </Grid>
