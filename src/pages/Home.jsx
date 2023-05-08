@@ -29,23 +29,23 @@ const Home = () => {
               <div class="text1">Hello, I'm</div>
               <div class="text2">Vidusha Lakshan</div>
               <div class="text3">And I'm a</div>
-              <div class="text4">Software Developer</div>
+              <div class="text4">Software Engineer</div>
             </pre>
             <div>
               <button class="btnHome">Hire Me</button>
             </div>
             <section className="linkHome">
               <a href="https://www.facebook.com/vidusha.lakshan.100">
-                <div className="hFacebook"></div>
+                <i class='bx bxl-facebook'></i>
               </a>
               <a href="https://twitter.com/Vidusha38054491">
-                <div className="hTwiter"></div>
+              <i class='bx bxl-twitter'></i>
               </a>
               <a href="https://github.com/vidushalakshan">
-                <div className="hGithub"></div>
+              <i class='bx bxl-github'></i>
               </a>
               <a href="https://www.linkedin.com/in/vidusha-lakshan-37351a225/">
-                <div className="hLinkdin"></div>
+              <i class='bx bxl-linkedin'></i>
               </a>
             </section>
           </item>

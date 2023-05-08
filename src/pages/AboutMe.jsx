@@ -43,7 +43,7 @@ const AboutMe = () => {
                   </div>
 
                   <div className="detais3">
-                    Diploma - <b class="about5">Software Enginnering</b>
+                    Degree - <b class="about5">Software Enginnering</b>
                   </div>
 
                   <div className="detais4">
