@@ -55,15 +55,18 @@
 }
 
 .background {
-  background: url("../assets/home/homes.jpg");
+  background-color: #020b36;
   background-size: cover;
   height: 100vh;
 }
 
 .image {
-  background: url("../assets/home/@vidusha.png");
+  background: url("../assets/home/vidushaone.png");
   background-size: cover;
-  height: 100%;
+  height: 99vh;
+  width: 35vw;
+  position: relative;
+  left: 13%;
 }
 
 /* .hFacebook > i{
@@ -123,7 +126,7 @@
   width: 207px;
   font-size: 25px;
   color: white;
-  background-color: blue;
+  background: linear-gradient(45deg,#f06,#3cf);
   font-family: "Crete Round", serif;
   transition: ease-out 0.3s;
   border-radius: 23px;
@@ -138,7 +141,7 @@
 }
 
 .linkHome > a {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -148,7 +151,26 @@
   font-size: 30px;
   color: #fff;
   text-decoration: none;
-  margin: 20px 0;
+  position: relative;
+  /* margin: 150px 0; */
+  top: 157px;
+  margin-left: 33px;
+}
+
+.linkHome > a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0c1022;
+  border-radius: 50%;
+  transform:scale(.88);
+  z-index: -1;
+  transition: .5s ease;
+}
+
+.linkHome > a:hover::after {
+  transform: scale(0);
 }
 
 @media all and (max-device-width: 1024px) and (min-device-width: 770px) {
@@ -174,5 +196,16 @@
     position: relative;
     position: relative;
     top: 10%;
+  }
+
+  .image {
+    height: 99vh;
+    width: 36vw;
+    position: relative;
+    left: 35%;
+  }
+
+  .linkHome > a {
+    top: 0px;
   }
 }
