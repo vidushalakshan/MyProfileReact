@@ -1,7 +1,6 @@
 .aboutmemain {
   position: relative;
   text-align: center;
-  margin-top: 3%;
 }
 
 #aboutme {
@@ -109,4 +108,11 @@
   font-family: "Crete Round", serif;
   transition: ease-out 0.3s;
   border-radius: 23px;
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 770px) {
+  #aboutme {
+    position: relative;
+    top: 22px;
+  }
 }

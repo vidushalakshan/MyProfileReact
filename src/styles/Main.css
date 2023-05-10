@@ -1,9 +1,17 @@
 .home {
-    position: relative;
-    bottom: 20%;
+  position: relative;
+  bottom: 20%;
 }
 
 .body {
-    background-color: rgb(23, 22, 22);
-    height: 100%;
+  background-color: rgb(23, 22, 22);
+  height: 100%;
+  width: 100%;
+}
+
+@media all and (max-device-width: 1024px) and (min-device-width: 770px) {
+  .body {
+    margin-top: -2%;
+    width: 136%;
+  }
 }
