@@ -237,3 +237,47 @@
     left: 6%;
   }
 }
+
+@media all and (max-device-width: 425px) and (min-device-width: 380px) {
+  .home {
+    width: 218%;
+  }
+
+  .image {
+    height: 99vh;
+    width: 83vw;
+    position: relative;
+    left: 8%;
+  }
+
+  .text4 {
+    margin-top: 2%;
+    font-size: 34px;
+  }
+
+  .text3 {
+    margin-top: 2%;
+    font-size: 29px;
+  }
+
+  .text2 {
+    margin-top: 2%;
+    font-size: 40px;
+  }
+
+  .text1 {
+    margin-top: 10%;
+    font-size: 33px;
+  }
+
+  .btnHome {
+    position: relative;
+    left: 3%;
+    top: 132px;
+  }
+
+  .linkHome > a {
+    /* margin: 150px 0; */
+    top: 193px;
+  }
+}

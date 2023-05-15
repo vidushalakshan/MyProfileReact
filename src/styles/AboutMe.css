@@ -116,3 +116,66 @@
     top: 22px;
   }
 }
+
+@media all and (max-device-width: 768px) and (min-device-width: 430px) {
+  .body {
+    background-color: rgb(23, 22, 22);
+    height: 100%;
+    width: 136%;
+  }
+
+  .imageAbout {
+    margin-top: 5%;
+    margin-left: 67%;
+  }
+
+  .detail {
+    position: relative;
+    top: 119%;
+    right: 108%;
+  }
+
+  .btn2 {
+    position: relative;
+    left: 80%;
+    border-radius: 23px;
+    margin-top: 66%;
+  }
+
+  .aboutedu {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 58px;
+    margin-left: 0%;
+    position: relative;
+    top: 615px;
+  }
+}
+
+@media all and (max-device-width: 425px) and (min-device-width: 380px) {
+  .body {
+    width: 218%;
+  }
+
+  .imageAbout {
+    margin-top: 5%;
+    margin-left: 55%;
+  }
+
+  .detail {
+    position: relative;
+    top: 112%;
+    right: 127%;
+  }
+
+  .btn2 {
+    position: relative;
+    left: 76%;
+    margin-top: 71%;
+  }
+
+  .aboutedu {
+    position: relative;
+    top: 595px;
+  }
+}
