@@ -186,3 +186,39 @@
   }
   
 }
+
+
+@media all and (max-device-width: 375px) and (min-device-width: 330px) {
+
+  .txtEmail {
+    overflow: visible;
+    width: 455px;
+    height: 25px;
+    display: inline;
+    position: relative;
+    left: 3px;
+    top: 10px;
+  }
+
+  .txtsubject {
+    position: relative;
+    top: 26px;
+    width: 455px;
+    left: 3px;
+  }
+
+  .txtmassage {
+    position: relative;
+    top: 51px;
+    margin: 0px;
+    width: 587px;
+    left: 3px;
+    height: 219px;
+  }
+
+  .linksHandle {
+    position: relative;
+    left: 63%;
+  }
+
+}
