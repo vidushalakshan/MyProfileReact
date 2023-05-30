@@ -209,3 +209,33 @@
   }
 
 }
+
+@media all and (max-device-width: 320px) and (min-device-width: 300px) {
+
+  .body {
+    width: 290%;
+  }
+
+  .imageAbout {
+    margin-top: 5%;
+    margin-left: 55%;
+  }
+
+  .detail {
+    position: relative;
+    top: 112%;
+    right: 127%;
+  }
+
+  .btn2 {
+    position: relative;
+    left: 76%;
+    margin-top: 71%;
+  }
+
+  .aboutedu {
+    position: relative;
+    top: 595px;
+  }
+
+}
